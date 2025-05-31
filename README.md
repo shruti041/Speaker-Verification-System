@@ -29,4 +29,11 @@ Mel-Frequency Cepstral Coefficients (MFCCs) capture the timbral aspects of speec
 - Capture audio from microphone.<br>
 - Extract MFCC features from live audio chunks.<br>
 - Predict speaker identity probabilities using trained model.<br>
-- Display real-time predictions and confidence scores. 
+- Display real-time predictions and confidence scores.
+## 🙌 Acknowledgments
+- Librosa for audio processing<br>
+- Scikit-learn for machine learning<br>
+- Streamlit for frontend<br>
+- Kaggle for the dataset
+
+
