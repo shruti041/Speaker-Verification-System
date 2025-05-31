@@ -10,8 +10,13 @@ This project implements a real-time speaker verification system using machine le
 -**Source:** Kaggle - Speaker Recognition Dataset <br>
 -**Format:** Directory of .wav files, grouped by speaker names (each folder = one speaker)<br>
 -**Sampling Rate:** Standardized to 16,000 Hz
-## 🎵 1. MFCC Feature Extraction
+## 🎵 MFCC Feature Extraction
 Mel-Frequency Cepstral Coefficients (MFCCs) capture the timbral aspects of speech:<br>
 - Extracted using librosa.feature.mfcc<br>
 - Each frame results in 13 MFCCs → take the mean across time to form a fixed-length vector<br>
 - Normalization helps in robust model performance
+## 🧠 Binary Classification for Speaker Verification
+- This is a supervised learning problem<br>
+- **Label 1:** Target speaker (e.g., "Nelson_Mandela")<br>
+- **Label 0:** Non-target speakers<br>
+- **Model:** Pipeline(StandardScaler + SVC(probability=True))
