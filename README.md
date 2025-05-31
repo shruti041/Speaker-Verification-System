@@ -24,3 +24,9 @@ Mel-Frequency Cepstral Coefficients (MFCCs) capture the timbral aspects of speec
 - **Accuracy:** (TP + TN) / Total<br>
 - **F1 Score:** Harmonic mean of precision and recall, better for class imbalance<br>
 - **Threshold:** Based on probability score; default is 0.5 
+## 🚀 Real-Time Speaker Verification App
+- Use streamlit with streamlit-webrtc for live audio streaming.<br>
+- Capture audio from microphone.<br>
+- Extract MFCC features from live audio chunks.<br>
+- Predict speaker identity probabilities using trained model.<br>
+- Display real-time predictions and confidence scores. 
