@@ -7,6 +7,6 @@ This project implements a real-time speaker verification system using machine le
 **3.** Evaluate the model using relevant metrics like accuracy and F1-score.<br>
 **4.** Deploy the solution with a real-time Streamlit web interface.
 ## 🗂️ Dataset
--**Source:** Kaggle - Speaker Recognition Dataset
--**Format:** Directory of .wav files, grouped by speaker names (each folder = one speaker)
+-**Source:** Kaggle - Speaker Recognition Dataset <br>
+-**Format:** Directory of .wav files, grouped by speaker names (each folder = one speaker)<br>
 -**Sampling Rate:** Standardized to 16,000 Hz
