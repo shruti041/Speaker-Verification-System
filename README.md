@@ -20,3 +20,7 @@ Mel-Frequency Cepstral Coefficients (MFCCs) capture the timbral aspects of speec
 - **Label 1:** Target speaker (e.g., "Nelson_Mandela")<br>
 - **Label 0:** Non-target speakers<br>
 - **Model:** Pipeline(StandardScaler + SVC(probability=True))
+## 📈 Evaluation Metrics
+- **Accuracy:** (TP + TN) / Total<br>
+- **F1 Score:** Harmonic mean of precision and recall, better for class imbalance<br>
+- **Threshold:** Based on probability score; default is 0.5 
